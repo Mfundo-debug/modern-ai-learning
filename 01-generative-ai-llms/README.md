@@ -73,25 +73,6 @@ LLMs do not process text exactly as complete words and sentences.
 
 Text is divided into smaller units called tokens.
 
-For example:
-
-```text
-Artificial intelligence is powerful
-```
-
-may be represented conceptually as:
-
-```text
-["Artificial", " intelligence", " is", " powerful"]
-```
-
-Tokens are converted into numerical representations before being processed by the model.
-
----
-
-### Embeddings
-
-Embeddings are numerical vector representations of information.
 # Lesson 1: Generative AI and Large Language Models
 
 ## What I Learned
@@ -315,7 +296,6 @@ Grounded Response
 
 ### Fine-Tuning
 
-Performs additional training to influence how a model behaves on particular tasks.
 
 ### Tool Calling
 
@@ -334,6 +314,7 @@ Combines an LLM with tools, instructions, state, and control logic to complete m
 
 ```text
 Goal
+
  ↓
 Reason
  ↓
@@ -342,6 +323,7 @@ Plan
 Use Tool
  ↓
 Observe Result
+
  ↓
 Decide Next Step
  ↓
@@ -354,6 +336,7 @@ Final Result
 
 ## Generative AI vs Genetic Algorithms
 
+
 Generative AI and Genetic Algorithms are different concepts.
 
 Generative AI focuses on generating new content.
@@ -365,6 +348,7 @@ A typical Genetic Algorithm follows:
 ```text
 Initial Population
         ↓
+
 Evaluate Fitness
         ↓
 Selection
@@ -396,6 +380,7 @@ The program:
 4. Calculates simple probabilities.
 5. Samples a possible next word.
 6. Repeats the process to generate text.
+
 
 The program demonstrates the basic idea behind autoregressive generation:
 
