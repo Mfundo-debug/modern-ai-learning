@@ -221,6 +221,7 @@ Grounded Response
 
 ### Fine-Tuning
 
+Performs additional training to influence how a model behaves on particular tasks.
 
 ### Tool Calling
 
