@@ -415,11 +415,4 @@ Building reliable AI systems therefore requires both AI knowledge and software e
 **Lesson 3 completed.**
 
        ↓
-The problem was that the environment variable had been created but was not visible to the current terminal session.
----
-
-
-* Insufficient API credits
-External AI services can fail for many reasons.
-    print(error)
 
