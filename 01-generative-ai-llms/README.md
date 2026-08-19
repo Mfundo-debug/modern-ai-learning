@@ -73,81 +73,6 @@ LLMs do not process text exactly as complete words and sentences.
 
 Text is divided into smaller units called tokens.
 
-# Lesson 1: Generative AI and Large Language Models
-
-## What I Learned
-
-This lesson introduced the core concepts behind modern Generative AI and Large Language Models.
-
-I learned how Generative AI differs from traditional machine learning, how LLMs generate text, and how concepts such as tokens, embeddings, Transformers, attention, and context windows fit together.
-
-I also explored the difference between prompting, RAG, fine-tuning, tool calling, and agentic AI.
-
----
-
-## Core Concepts
-
-### Traditional Machine Learning vs Generative AI
-
-Traditional machine learning is commonly used to make predictions from existing data.
-
-Example:
-
-```text
-Customer Data
-     ↓
-Machine Learning Model
-     ↓
-Churn / No Churn
-```
-
-Generative AI instead produces new content based on patterns learned from data.
-
-```text
-Prompt
-   ↓
-Generative Model
-   ↓
-Generated Content
-```
-
-Generated content can include:
-
-* Text
-* Code
-* Images
-* Audio
-* Video
-* Structured data
-
----
-
-### Large Language Models
-
-A Large Language Model is a neural network trained on large amounts of tokenised data.
-
-At a simplified level, an autoregressive LLM repeatedly predicts the next token.
-
-```text
-Input
-  ↓
-Predict Next Token
-  ↓
-Add Token to Context
-  ↓
-Predict Next Token
-  ↓
-Repeat
-```
-
----
-
-### Tokens
-
-LLMs do not process text exactly as complete words and sentences.
-
-Text is divided into smaller units called tokens.
-
 For example:
 
 ```text
@@ -296,6 +221,7 @@ Grounded Response
 
 ### Fine-Tuning
 
+Performs additional training to influence how a model behaves on particular tasks.
 
 ### Tool Calling
 
